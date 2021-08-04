@@ -1,6 +1,6 @@
 from __future__ import print_function
+
 import cv2 as cv
-import argparse
 
 max_value = 255
 max_value_H = 360 // 2
@@ -77,7 +77,7 @@ cv.createTrackbar(high_S_name, window_detection_name, high_S, max_value, on_high
 cv.createTrackbar(low_V_name, window_detection_name, low_V, max_value, on_low_V_thresh_trackbar)
 cv.createTrackbar(high_V_name, window_detection_name, high_V, max_value, on_high_V_thresh_trackbar)
 
-img = cv.imread('681360.jpg')
+img = cv.imread('images/681360.jpg')
 
 while True:
 
