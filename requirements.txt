@@ -5,3 +5,5 @@ tensorboard
 matplotlib
 numpy
 opencv-python
+fastbook
+fastai
